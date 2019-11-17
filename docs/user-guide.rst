@@ -84,7 +84,7 @@ Creating a Worksheet
 
 .. code:: python
 
-   worksheet = sh.add_worksheet(title="A worksheet", rows="100", cols="20")
+   worksheet = sh.add_worksheet(title="A worksheet", rows="100", cols="20", index=0)
 
 
 Deleting a Worksheet
