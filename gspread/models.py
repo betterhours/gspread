@@ -271,7 +271,7 @@ class Spreadsheet(object):
             }]
         }
 
-        if index:
+        if index or index == 0:
             body["requests"][0]["addSheet"]["properties"]["index"] = index
 
         data = self.batch_update(body)
